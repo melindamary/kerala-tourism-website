@@ -68,3 +68,8 @@ input[type="date"] {
 .link:hover{
     color: blue;
 }
+.login-btn:disabled {
+    background-color: #cccccc; /* Grey background */
+    color: #666666;
+    cursor: not-allowed;
+  }
