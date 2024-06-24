@@ -1,0 +1,34 @@
+<div class="image-card">
+    <app-image-card
+    [imgSrc]="districts[id].images[0]"
+    [heading]="districts[id].name"
+    ></app-image-card>
+</div>
+<div class="individual-district container">
+    <div class="row mt-4">
+        <div class="col-6">
+           <img [src]="districts[id].images[1]" class="w-100"/>
+        </div>
+        <div class="col-6 d-flex justify-content-center align-items-center ">
+            <div class="content w-100 mt-2">
+                <h3 width="80%">{{districts[id].description}}</h3>
+                <h5 class="mt-4">Did you know?</h5>
+                @for(funfact of districts[id].fun_facts; track districts[id].fun_facts){
+                    {{funfact}}
+                }
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <h2>Explore Top Attractions</h2>
+            <!-- <h2>What to see in {{districts[id].name}}</h2> -->
+        </div>
+        <div class="mb-5 mt-3">
+            <app-carousel-captions
+            [attractions] = "districts[id].attractions"
+            ></app-carousel-captions>
+        </div>
+        
+    </div>
+    
+    
+</div>

@@ -1,0 +1,30 @@
+.card{
+    border-radius: 0px !important;
+}
+.card-img{
+    object-fit: cover;
+    float: left;
+}
+.card-img-overlay{
+    border-radius: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+h1{
+    font-size: 44px;
+    font-family: "Playfair Display", serif;
+}
+.district-card-img-overlay{
+    background-color: rgba(0,0,0,0.6);
+}
+.district-title{
+    border: solid 1px white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 4px;
+    font-size: 52px;
+}

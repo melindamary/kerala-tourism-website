@@ -1,0 +1,38 @@
+.card{
+    width: 320px;
+    height: 330px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img-top{
+    height: 280px;
+    width: 100%;
+}
+.card-body{
+    background-color: #f8f8f8;
+    align-items: center;
+    height: 50px;
+}
+h6{
+    font-weight: bold;
+    
+}
+.card-img-top img{
+    object-fit: contain;
+}
+.btn{
+    background-color: green;
+}
+.my-icon{
+    color: rgb(3, 145, 3);
+    position: relative;
+    top: -10px;
+}
+.my-icon:hover{
+    cursor: pointer;
+    color: green;
+}

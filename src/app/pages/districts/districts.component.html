@@ -1,0 +1,22 @@
+    <div class="districts-image-card">
+        <app-image-card 
+        [heading]="heading"
+        [imgSrc]="imgSrc"
+        ></app-image-card>
+    </div>
+    <div class="container-fluid district-cards my-5">
+        <div class="my-row row justify-content-center">
+            @for(district of districtsData; track district.id){
+            <div class="col-3 mx-3 justify-content-center">
+                <app-card 
+                [title]="district.name" 
+                [description]="district.description"
+                [imgSrc]="district.images[0]"
+                [id]="district.id"
+                ></app-card>
+            </div>
+        }
+        </div>
+    </div>
+   
+    

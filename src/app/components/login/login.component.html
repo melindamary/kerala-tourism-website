@@ -1,0 +1,22 @@
+<div class="body">
+    <div class="form-container">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <h2>Login</h2>
+            <label for="email" >Email:</label>
+            <input type="email" formControlName="email" required>            
+            <div *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched">
+                <span *ngIf="loginForm.get('email')?.hasError('required')" style="color:Red;">*Email is required</span>
+                <span *ngIf="loginForm.get('email')?.hasError('email')" style="color:Red;">*Email should be of the form abc&#64;example.com</span>
+            </div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+            <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched">
+                <span *ngIf="loginForm.get('password')?.hasError('required')" style="color:Red;">*Password is required</span>
+            </div>
+            
+            <button class="login-btn" [disabled]="loginForm.invalid" type="submit">Login</button>
+        </form>
+        <button class="link" (click)="onToggle()">Don't have an account? Click here to signup.</button>
+    </div>
+</div>
+

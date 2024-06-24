@@ -1,0 +1,11 @@
+<div class="login-page">
+    <div class="overlay"></div>
+    <div class="content">
+    @if(showLogin){
+        <app-login (toggle)="toggleView()"></app-login>
+    }
+    @else if(!showLogin){
+        <app-signup (toggle)="toggleView()"></app-signup>
+    }
+    </div>
+  </div>

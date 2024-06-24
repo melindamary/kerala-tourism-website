@@ -1,0 +1,55 @@
+{
+    "kerala": [
+        {
+            "id":1,
+            "category": "Places to Explore",
+            "images" : [
+                {
+                    "id":1,
+                    "image":"https://www.ekeralatourism.net/wp-content/uploads/2018/12/things-wayanad2.jpg"
+                },
+                {
+                    "id":2,
+                    "image":"https://www.paradise-kerala.com/blog/wp-content/uploads/2022/11/26677079964_fac640c391_b.jpg"
+                },
+                {
+                    "id":3,
+                    "image":"https://th.bing.com/th/id/OIF.pdDLoa5gZ2aU1vNAPcDmLg?rs=1&pid=ImgDetMain"
+                },
+                {
+                    "id":4,
+                    "image":"https://th.bing.com/th/id/OIP.2J3Ya9BQhNc-sOZsDjoBeAAAAA?rs=1&pid=ImgDetMain"
+                }
+                
+            ]
+        },
+        {
+        "id":1,
+        "category":"culture & events",
+        "images":[
+            {
+                "id":1,
+                "image":"https://www.mistay.in/travel-blog/content/images/2020/05/onam-celebrations.jpg"
+            },
+            {
+                "id":2,
+                "image":"https://i.pinimg.com/originals/db/e8/da/dbe8da6be20ca61f9fff810b0d3b1096.jpg"
+            },
+            {
+                "id":3,
+                "image":"https://kharvacommunity.org/images/gallery/kerala-festival.jpg"
+            },
+            {
+                "id":4,
+                "image":"https://religionworld.s3.amazonaws.com/uploads/2020/08/onam-2020-5-famous-malayalam-songs-aka-onapattukal-to-celebrate-1024x569.jpg"
+            },
+            {
+                "id":5,
+                "image":"https://th.bing.com/th/id/OIP.nF2CKOEkwmRoARKZWu0IKAHaE4?w=292&h=192&c=7&r=0&o=5&dpr=1.7&pid=1.7"
+            }
+         ]
+        }
+       
+
+]
+}

@@ -1,0 +1,27 @@
+.login-page{
+    background-image: url('https://www.clubmahindra.com/blog/media/section_images/shuttersto-3740a7d7996d4a0.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(75, 174, 141);
+    // height: auto;
+    height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    z-index: 1;
+  }
+  .content{
+    position: relative;
+    z-index: 2;
+  }
