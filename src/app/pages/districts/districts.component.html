@@ -7,7 +7,7 @@
     <div class="container-fluid district-cards my-5">
         <div class="my-row row justify-content-center">
             @for(district of districtsData; track district.id){
-            <div class="col-3 mx-3 justify-content-center">
+            <div class="col-3 mx-3 d-flex justify-content-center">
                 <app-card 
                 [title]="district.name" 
                 [description]="district.description"
